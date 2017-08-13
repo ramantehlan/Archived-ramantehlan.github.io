@@ -1,0 +1,44 @@
+html{ 
+       min-width:1000px;
+       max-width:100%;
+       margin:0px;
+       font-size:15px;
+       background-attachment:fixed;
+       font-family:roboto_r; 
+       background-size:100%;
+       color:#666666;
+         background-attachment:fixed;
+         background-color:#fff;
+       /*background-color:#F9FBF2;*/
+}
+
+body{
+       margin:0px auto;
+       max-width:100%;
+       min-width:1000px;
+       padding-top: 120px;
+}
+
+
+
+
+
+@font-face{
+  font-family:Quicksand;
+  src:url("../fonts/Quicksand-Bold.ttf");
+}
+
+@font-face{
+  font-family:roboto_m;
+  src:url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face{
+  font-family:roboto_r;
+  src:url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face{
+  font-family:rock;
+  src:url("../fonts/ROCK.TTF");
+}
