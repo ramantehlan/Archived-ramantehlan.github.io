@@ -1,5 +1,27 @@
-.left{width:30px;
-	  height:40px;
-	  background-color:green;
+.profile_box{
+			width:210px;
+			padding:20px;
+			border-radius:5px;
 
 }
+
+.profile_pic{width:120px;
+			 height:120px;
+			 border-radius:124px;
+			 overflow:hidden;
+			 margin:0px auto;
+}
+
+.profile_pic img{width:120px;
+				 border-radius:120px;
+}
+
+.profile_name{text-align:center;
+			  font-size:20px;
+			  height:30px;
+			  line-height:30px;
+			  margin-top:15px;
+			  color:black;
+			  font-family: roboto_m;
+}
+
