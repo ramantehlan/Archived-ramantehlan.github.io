@@ -6,15 +6,15 @@
 		width:400px;
 		height:100%;
 		background-color:white;
+		border-right:1px solid #EBEBEB;
 }
 
 .right_body{
 	position:absolute;
 	margin-left: 400px;
-	height:100%;
-	width:600px;
-	border-left:1px solid #EFEFEF;
-	background-color:#F5FFF5;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
 }
 
 /*
@@ -88,3 +88,23 @@
 
 
 
+
+.option{padding-left:15px;
+		padding-right:15px;
+		height:30px;
+		line-height:30px;
+		font-size:14px;
+		background-color:white;
+		border-radius:100px;
+		float:left;
+		margin-left:5px;
+		margin-top:15px;
+        border:1px solid #EBEBEB;
+        cursor:pointer;
+        color:#CCCCCC;
+}
+
+.option:hover{background-color:#9D8DF1;
+			  border:1px solid #8B95DA;
+			  color:white;
+}
