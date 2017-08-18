@@ -1,22 +1,22 @@
 
 .profile_box{
-			width:340px;
+			width:325px;
 			padding:20px;
 			border-radius:5px;
 			margin-left:30px;
 			margin-top:30px;
-			border:1px solid #EFEFEF;
+			/*border:1px solid #EFEFEF;*/
+			float:left;
 }
 
 .profile_pic{width:120px;
 			 height:120px;
 			 overflow:hidden;
 			 margin:0px auto;
-			 margin-top:20px;
 }
 
 .profile_pic img{width:120px;
-				 border-radius:10px;
+				 border-radius:5px;
 }
 
 .profile_name{text-align:center;
@@ -25,18 +25,52 @@
 			  line-height:30px;
 			  margin-top:20px;
 			  color:black;
-			  font-family: roboto_m;
+			  font-family: rock;
 }
 
-.profile_domains{margin-top:5px;
+.profile_domains{margin-top:3px;
 				 text-align:center;
 				 font-size:16px;
 			  font-family: roboto_m;
-			  color:#3E601F;
+			  color:#4F7A27;
 }
 
-.profile_about{margin-top:15px;
-			   font-size:14px;
+.profile_about{
+			   margin-top:20px;
+			   font-size:15px;
 			   text-align:left;
 			   line-height:18px;
+			   color:#8C6E78;
 }
+
+.profile_links{margin-top:20px;
+				text-align:left;
+}
+
+.link{height:30px;
+	  line-height:30px;
+	  font-size:13px;
+	  margin-top:0px;
+	  color:#9D8DF1;
+}
+
+.link img{float:left;
+		  height:16px;
+		  margin-right:10px;
+		  margin-top:6px;
+}
+
+
+/*
+	Right body
+*/
+
+.right_body{
+	position:absolute;
+	margin-left: 400px;
+	background-color:green;
+	height:100%;
+	width:600px;
+	border-left:1px solid #EFEFEF;
+}
+
