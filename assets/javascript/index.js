@@ -1,12 +1,12 @@
 $(document).ready(function(){
-		$(".work_section").show();
+		$("#work_section").show();
 
 		$("#work").click(function(){
 			$(".selected").removeClass("selected");
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".work_section").show();
+			$("#work_section").show();
 		});
 
 		$("#projects").click(function(){
@@ -14,7 +14,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".projects_section").show();
+			$("#projects_section").show();
 		});
 
 		$("#education").click(function(){
@@ -22,7 +22,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".education_section").show();
+			$("#education_section").show();
 		});
 
 		$("#skills").click(function(){
@@ -30,7 +30,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".skills_section").show();
+			$("#skills_section").show();
 		});
 
 		$("#courses").click(function(){
@@ -38,7 +38,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".courses_section").show();
+			$("#courses_section").show();
 		});
 
 		$("#achievements").click(function(){
@@ -46,7 +46,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".achievements_section").show();
+			$("#achievements_section").show();
 		});
 
 
@@ -55,7 +55,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".activities_section").show();
+			$("#activities_section").show();
 		});
 
 		$("#interests").click(function(){
@@ -63,7 +63,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".work_section").show();
+			$("#work_section").show();
 		});
 
 		$("#languages").click(function(){
@@ -71,7 +71,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".languages_section").show();
+			$("#languages_section").show();
 		});
 
 });
