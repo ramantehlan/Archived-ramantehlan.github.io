@@ -63,7 +63,7 @@ $(document).ready(function(){
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$("#work_section").show();
+			$("#interests_section").show();
 		});
 
 		$("#languages").click(function(){
