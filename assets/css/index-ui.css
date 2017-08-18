@@ -7,6 +7,7 @@
 		height:100%;
 		background-color:white;
 		border-right:1px solid #EBEBEB;
+		border-bottom:1px solid #EBEBEB;
 		box-shadow: 2px 0px 15px 0px rgba(50,50,50,0.05);
 
 }
@@ -17,6 +18,7 @@
 	padding-left:20px;
 	padding-right:20px;
 	padding-top:5px;
+	padding-bottom:50px;
 }
 
 /*
@@ -29,6 +31,7 @@
 			border-radius:5px;
 			margin-left:18px;
 			margin-top:10px;
+			background-color:white;
 			/*border:1px solid #EFEFEF;*/
 }
 
@@ -107,7 +110,7 @@
 		height:30px;
 		line-height:30px;
 		font-size:14px;
-		background-color:white;
+		background-color:#fff;
 		border-radius:100px;
 		float:left;
 		margin-left:10px;
@@ -116,7 +119,7 @@
         cursor:pointer;
         color:#B2B2B2;
 
-        /*background:linear-gradient(60deg, #CA3CFF, #9C2FC4);*/
+        
 		box-shadow: 0px 0px 10px 0px rgba(100,100,100,0.06);
 }
 
@@ -140,6 +143,77 @@
 .super_heading{font-size:32px;
 			   color:#000;
 			   font-family:roboto_t;
+			   margin-bottom:20px;
 }
 
 
+/**
+	items
+**/
+
+.item{padding:20px;
+	  padding-top:15px;
+	  border-radius:5px;
+	  background-color:#fff;
+	  border:1px solid #EBEBEB;
+	  margin-right:20px;
+	  margin-top:20px;
+	  box-shadow: 0px 0px 10px 0px rgba(100,100,100,0.06);
+	  max-width:600px;
+}
+
+.item:first-child{margin-top:0px;}
+
+.item_heading{font-size:24px;
+			  height:30px;
+			  color:#000;
+			  font-family:roboto_m;
+}
+
+.item_heading a{color:#000;
+				text-decoration:none;
+}
+
+.item_heading a:hover{color:#9D8DF1;}
+
+.item_heading i{line-height:24px;
+				font-size:12px;
+				color:#CB9CF2;
+}
+
+.item_subheading{font-size:16px;
+				 color:#000;
+				 margin-top:5px;
+}
+
+.item_timeline{font-size:12px;
+			    color:#4F7A27;
+			    margin-top:3px;
+}
+
+.item_details{
+			  font-size:16px;
+			  max-width:100%;
+
+}
+
+.item_tags{width:100%;
+			float:left;
+		   margin-top:10px;
+		   margin-bottom:10px;
+}
+
+.tag{padding-left:15px;
+		padding-right:15px;
+		height:20px;
+		line-height:21px;
+		font-size:11px;
+		background-color:#FAFAFA;
+		border-radius:100px;
+		float:left;
+		margin-left:10px;
+        border:1px solid #EBEBEB;
+        color:#B47EB3;
+    }
+
+.tag:first-child{margin-left:0px;}
