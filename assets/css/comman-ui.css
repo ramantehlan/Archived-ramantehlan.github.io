@@ -3,13 +3,9 @@ html{
        max-width:100%;
        margin:0px;
        font-size:15px;
-       background-attachment:fixed;
        font-family:roboto_r; 
-       background-size:100%;
        color:#666666;
-         background-attachment:fixed;
-         background-color:#F0FAF0;
-       /*background-color:#F9FBF2;*/
+       background:#FAFAFA;
 }
 
 body{
