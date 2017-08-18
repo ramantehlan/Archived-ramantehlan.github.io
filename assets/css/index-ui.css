@@ -1,8 +1,10 @@
 .profile_box{
-			width:210px;
+			width:340px;
 			padding:20px;
 			border-radius:5px;
-
+			margin-left:30px;
+			margin-top:30px;
+			background-color:#FEFFFE;
 }
 
 .profile_pic{width:120px;
@@ -25,3 +27,14 @@
 			  font-family: roboto_m;
 }
 
+.profile_domains{margin-top:5px;
+				 text-align:center;
+				 font-size:16px;
+			  font-family: roboto_m;
+			  color:#3E601F;
+}
+
+.profile_about{margin-top:15px;
+			   font-size:14px;
+			   text-align:left;
+}
