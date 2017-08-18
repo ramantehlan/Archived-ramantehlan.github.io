@@ -21,9 +21,13 @@ body{
 
 
 
+@font-face{
+  font-family:abel;
+  src:url("../fonts/Abel-Regular.ttf");
+}
 
 @font-face{
-  font-family:Quicksand;
+  font-family:quicksand;
   src:url("../fonts/Quicksand-Bold.ttf");
 }
 
@@ -35,6 +39,11 @@ body{
 @font-face{
   font-family:roboto_r;
   src:url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face{
+  font-family:roboto_t;
+  src:url("../fonts/Roboto-Thin.ttf");
 }
 
 @font-face{
