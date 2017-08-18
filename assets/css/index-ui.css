@@ -95,6 +95,11 @@
 
 .hide{display:none;}
 
+.menu{
+	  float:left;
+	  width:100%;
+}
+
 .option{padding-left:15px;
 		padding-right:15px;
 		height:30px;
@@ -110,6 +115,8 @@
         color:#CCCCCC;
 }
 
+.option:first-child{margin-left:0px;}
+
 .option:hover{background-color:#9D8DF1;
 			  border:1px solid #8B95DA;
 			  color:white;
@@ -121,7 +128,7 @@
 }
 
 .section{margin-top:30px;
-		 margin-left:20px;
+		 margin-left:15px;
 		 float:left;
 }
 
