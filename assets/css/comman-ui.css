@@ -18,7 +18,10 @@ body{
        min-width:1000px;
 }
 
-
+.top_color{width:100%;
+           height:2px;
+           background-color:#9D8DF1;
+}
 
 
 @font-face{
