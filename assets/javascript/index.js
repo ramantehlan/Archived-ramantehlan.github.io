@@ -1,5 +1,4 @@
 $(document).ready(function(){
-		$("#work_section").show();
 
 		$("#work").click(function(){
 			$(".selected").removeClass("selected");
