@@ -168,7 +168,7 @@
 **/
 
 .item{padding:20px;
-	  padding-top:15px;
+	  padding-top:20px;
 	  border-radius:5px;
 	  background-color:#fff;
 	  border:1px solid #EBEBEB;
@@ -181,7 +181,7 @@
 .item:first-child{margin-top:0px;}
 
 .item_heading{font-size:24px;
-			  height:30px;
+			  min-height:30px;
 			  color:#000;
 			  font-family:roboto_m;
 }
@@ -229,6 +229,7 @@
 		border-radius:100px;
 		float:left;
 		margin-left:10px;
+		margin-top:10px;
         border:1px solid #EBEBEB;
         color:#B47EB3;
         font-family:quicksand;
