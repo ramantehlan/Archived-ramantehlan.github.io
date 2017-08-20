@@ -35,21 +35,25 @@
 			/*border:1px solid #EFEFEF;*/
 }
 
-.profile_pic{width:120px;
-			 height:120px;
+.profile_pic{width:140px;
+			 height:140px;
 			 overflow:hidden;
 			 margin:0px auto;
+				 border-radius:150px;
+			 background-color:green;
 }
 
-.profile_pic img{width:120px;
-				 border-radius:5px;
+.profile_pic img{width:170px;
+				 margin-left:-13px;
+				 margin-top:-20px;
+				 border-radius:150px;
 }
 
 .profile_name{text-align:center;
 			  font-size:22px;
 			  height:30px;
 			  line-height:30px;
-			  margin-top:20px;
+			  margin-top:10px;
 			  color:black;
 			  font-family: rock;
 }
