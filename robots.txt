@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /assets
+
+Sitemap: http://www.ramantehlan.github.io/sitemap.xml
+
+
+
