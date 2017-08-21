@@ -240,3 +240,14 @@
     }
 
 .tag:first-child{margin-left:0px;}
+
+
+.skill_name{font-size:16px;
+			color:#000;
+			margin-top:15px;
+			margin-left:10px;
+				}
+
+.skill_name progress{float:right;
+					 margin-left:20px;
+}
