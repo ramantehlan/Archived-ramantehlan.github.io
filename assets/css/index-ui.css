@@ -243,6 +243,9 @@
 .tag:first-child{margin-left:0px;}
 
 
+.skills_item{
+	  min-width:350px;}
+
 .skill_name{font-size:16px;
 			margin-top:15px;
 			margin-left:30px;
@@ -299,8 +302,7 @@ progress{float:right;
 	top:0;
 	left:0;
 width:110px;
-	font-weight:bold;
-	font-size:13px;
+	font-size:12px;
 	color:#ffffff;
 	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
@@ -314,9 +316,9 @@ width:110px;
 .skillbar-title span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
+	padding:0 15px;
 	height:25px;
-	line-height:25px;
+	line-height:26px;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:3px;
 	-moz-border-radius-topleft:3px;
