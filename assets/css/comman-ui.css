@@ -4,7 +4,7 @@ html{
        margin:0px;
        font-size:15px;
        font-family:roboto_r; 
-       color:#666666;
+       color:#333030;
        background:#FAFAFA;
        background:#fff;
 }
@@ -27,11 +27,6 @@ body{
 @font-face{
   font-family:abel;
   src:url("../fonts/Abel-Regular.ttf");
-}
-
-@font-face{
-  font-family:quicksand;
-  src:url("../fonts/Quicksand-Bold.ttf");
 }
 
 @font-face{
