@@ -54,6 +54,7 @@
 			  margin-top:10px;
 			  color:black;
 			  font-family: rock;
+			  font-weight:normal;
 }
 
 .profile_domains{margin-top:3px;
@@ -61,6 +62,7 @@
 				 font-size:16px;
 			  font-family: roboto_m;
 			  color:#4F7A27;
+			  font-weight:normal;
 }
 
 .profile_about{
