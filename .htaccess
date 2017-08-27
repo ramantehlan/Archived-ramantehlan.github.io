@@ -1,4 +1,7 @@
 RewriteEngine On
 
+RewriteCond %{HTTP_HOST} ^http://151.101.1.147
+RewriteRule (.*) http://www.yourdomain.com [R=301,L]
+
 RewriteCond %{HTTP_HOST} !^ramantehlan.github.io [NC]
 RewriteRule ^(.*)$ http://ramantehlan.github.io [L,R=301]
