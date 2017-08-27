@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^ramantehlan.github.io [NC]
+RewriteRule ^(.*)$ http://ramantehlan.github.io [L,R=301]
