@@ -286,7 +286,7 @@ progress{float:right;
 	display:block;
 	margin-top:15px;
 	margin-left:30px;
-	background:#eee;
+	background:#e8dfdf;
 	height:25px;
 	border-radius:3px;
 	-moz-border-radius:3px;
@@ -310,7 +310,6 @@ progress{float:right;
 width:115px;
 	font-size:12px;
 	color:#ffffff;
-	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
 	-moz-border-radius-topleft:3px;
@@ -321,7 +320,7 @@ width:115px;
 
 .skillbar-title span {
 	display:block;
-	background:rgba(0, 0, 0, 0.1);
+	/*background:rgba(0, 0, 0, 0.1);*/
 	padding:0 15px;
 	height:25px;
 	line-height:26px;
