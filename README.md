@@ -1,4 +1,4 @@
-# ramantehlan.github.io
+# Ramantehlan.github.io
 This is my personal website, where I will talk about all my activities, projects, work experiences etc. I have kept it very very simple and to the point, my focus in just on presenting information in a very effective manner.
 
 # Contribution
