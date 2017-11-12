@@ -9,6 +9,8 @@
 		border-bottom:1px solid #EBEBEB;
 		/*box-shadow: 2px 0px 15px 0px rgba(50,50,50,0.05);*/
 		background:#FAFAFA;
+		overflow-y:auto;
+		overflow-x:hidden;
 
 }
 
@@ -127,7 +129,6 @@
 		box-shadow: 0px 0px 10px 0px rgba(100,100,100,0.06);
 }
 
-.option:first-child{margin-left:0px;}
 
 .option:hover{background-color:#9D8DF1;
 			  border:1px solid #8B95DA;
