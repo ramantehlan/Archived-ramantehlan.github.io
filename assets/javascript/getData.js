@@ -56,6 +56,58 @@ function createLinks(links){
   return stack;
 }
 
+function createItems(data){
+  let item = []
+  $.each(data, function(key, value){
+      let subItems = []
+
+      if(data.hasOwnProperty('url') && value.hasOwnProperty('name')){
+        subItems.push(createElement("div", {
+          "class": "item_heading"
+        }, null , [createElement("a", {"href": value.url}, value.name)]))
+      }else if (value.hasOwnProperty('name')) {
+        subItems.push(createElement("div", {
+          "class": "item_heading"
+        }, value.name ))
+      }
+
+
+      subItems.push(createElement("div", {
+        "class": "item_subheading"
+      }, value.type))
+
+      subItems.push(createElement("div", {
+        "class": "item_timeline"
+      }, value.timeline))
+
+      if(tagsEnable){
+        let tags = []
+
+        $.each(value.tag, function(key, value){
+          tags.push(createElement("div", {
+            "class": "tag"
+          }, value))
+        })
+
+        subItems.push(createElement("div", {
+          "class": "item_tags"
+        }, null, tags))
+      }
+
+      subItems.push(createElement("div", {
+        "class": "item_details"
+      }, value.about))
+
+      let workItem = createElement("div", {
+        "class": "item"
+      }, null, subItems)
+
+      item.push(workItem)
+  })
+
+  return item;
+}
+
 function pushData(boxes, elements){
   // Adding all the nodes
   $.each(boxes, function(key1, value1){
@@ -81,6 +133,7 @@ function setData(data) {
   let profile_elements = [];
   let welcome_elements = [];
   let work_elements = [];
+  let project_elements = [];
 
   // Minor elements
   let profile_image = createElement("img", {
@@ -118,50 +171,15 @@ function setData(data) {
   }, data.home.body))
 
   // Work elelements
-  work_elements.push(createElement("div", {
-      "class": "super_heading"
-  }, "Work"))
+  work_elements.push(createItems(data.work))
 
-  $.each(data.work, function(key, value){
-
-      let heading = createElement("div", {
-        "class": "item_heading"
-      }, null , [createElement("a", {"href": value.url}, value.name)])
-
-      let subHeading = createElement("div", {
-        "class": "item_subheading"
-      }, value.role)
-
-      let timeline = createElement("div", {
-        "class": "item_timeline"
-      }, value.timeline)
-
-      let tags = []
-      $.each(value.tag, function(key, value){
-        tags.push(createElement("div", {
-          "class": "tag"
-        }, value))
-      })
-
-      let tagsBag = createElement("div", {
-        "class": "item_tags"
-      }, null, tags)
-
-      let details = createElement("div", {
-        "class": "item_details"
-      }, value.about)
-
-      let workItem = createElement("div", {
-        "class": "item"
-      }, null, [heading, subHeading, timeline, tagsBag, details])
-
-      work_elements.push(workItem)
-  })
+  //project elements
+  project_elements.push(createItems(data.projects))
 
 
   // store boxes and respactive data
-  let boxes = [$("#profile_box"), $("#welcome_section"), $("#work_section")];
-  let elements = [profile_elements, welcome_elements, work_elements];
+  let boxes = [$("#profile_box"), $("#welcome_section"), $("#work_section"), $("#projects_section")];
+  let elements = [profile_elements, welcome_elements, work_elements, project_elements];
 
   // To push it to html page
   pushData(boxes, elements);
