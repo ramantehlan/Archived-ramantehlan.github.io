@@ -8,8 +8,7 @@ function createElement(type, attribute = null, content = null, child = null) {
 
   // Add content to element
   if (content != null) {
-    let textNode = document.createTextNode(content)
-    element.appendChild(textNode)
+    element.innerHTML = content;
   }
 
   // Set attributes using loop
@@ -28,8 +27,46 @@ function createElement(type, attribute = null, content = null, child = null) {
   return element
 }
 
+function createLinks(links){
+  let stack = [];
+
+  $.each(links, function(key, value){
+      if(links[key].active == true){
+        let finalForm = []
+        let content = links[key].label
+
+        finalForm.push(createElement("img", {
+          "src": links[key].iconUrl,
+          "alt": links[key].name
+        }))
+
+        if(links[key].url != ""){
+          finalForm.push(createElement("a", {
+            "href": links[key].url
+          }, links[key].label))
+          content = null
+        }
+
+        stack.push(createElement("div",{
+            "class" : "link"
+        }, content, finalForm))
+      }
+  })
+
+  return stack;
+}
+
+function pushData(boxes, elements){
+  // Adding all the nodes
+  $.each(boxes, function(key1, value1){
+    $.each(elements[key1], function(key2, value2){
+      boxes[key1].append(value2);
+    });
+  });
+}
+
 // To display all the infromation from the json file
-function displayData(data) {
+function setData(data) {
 
   // Setting meta tag values for the document
   $('head').append('<meta name="author" content="' + data.document.author + '">');
@@ -41,42 +78,16 @@ function displayData(data) {
   $('head').append('<meta name="robots" content="' + data.document.robots + '">');
   $('head').append('<meta name="google-site-verification" content="' + data.document.google_site_verificatin + '">');
 
-  // Elements
   let profile_elements = [];
-  let profile_links = [];
+  let welcome_elements = [];
+  let work_elements = [];
 
-  // indirect childs
+  // Minor elements
   let profile_image = createElement("img", {
     "src": data.profile.image
   });
 
-
-  $.each(data.profile.link, function(key, value){
-      if(data.profile.link[key].active == true){
-        let finalForm = []
-        let content = data.profile.link[key].label;
-
-        finalForm.push(createElement("img", {
-          "src": data.profile.link[key].iconUrl,
-          "alt": data.profile.link[key].name
-        }))
-
-        if(data.profile.link[key].url != ""){
-          finalForm.push(createElement("a", {
-            "href": data.profile.link[key].url
-          }, data.profile.link[key].label))
-          content = null
-        }
-
-        profile_links.push(createElement("div",{
-            "class" : "link"
-        }, content, finalForm))
-      }
-  })
-
-
-
-  // direct childs
+  // profile_elements
   profile_elements.push(createElement("div", {
     "class": "profile_pic"
   }, null, [profile_image]))
@@ -95,16 +106,65 @@ function displayData(data) {
 
   profile_elements.push(createElement("div", {
     "class": "profile_links"
-  }, null , profile_links))
+  }, null , createLinks(data.profile.link)))
+
+  // Welcome_elements
+  welcome_elements.push(createElement("div", {
+      "class": "super_heading"
+  }, data.home.title))
+
+  welcome_elements.push(createElement("div", {
+      "class": "super_details"
+  }, data.home.body))
+
+  // Work elelements
+  work_elements.push(createElement("div", {
+      "class": "super_heading"
+  }, "Work"))
+
+  $.each(data.work, function(key, value){
+
+      let heading = createElement("div", {
+        "class": "item_heading"
+      }, null , [createElement("a", {"href": value.url}, value.name)])
+
+      let subHeading = createElement("div", {
+        "class": "item_subheading"
+      }, value.role)
+
+      let timeline = createElement("div", {
+        "class": "item_timeline"
+      }, value.timeline)
+
+      let tags = []
+      $.each(value.tag, function(key, value){
+        tags.push(createElement("div", {
+          "class": "tag"
+        }, value))
+      })
+
+      let tagsBag = createElement("div", {
+        "class": "item_tags"
+      }, null, tags)
+
+      let details = createElement("div", {
+        "class": "item_details"
+      }, value.about)
+
+      let workItem = createElement("div", {
+        "class": "item"
+      }, null, [heading, subHeading, timeline, tagsBag, details])
+
+      work_elements.push(workItem)
+  })
 
 
+  // store boxes and respactive data
+  let boxes = [$("#profile_box"), $("#welcome_section"), $("#work_section")];
+  let elements = [profile_elements, welcome_elements, work_elements];
 
-  // Adding all the nodes
-  let profile_box = $(".profile_box");
-  $.each(profile_elements, function(key, value){
-    profile_box.append(value);
-  });
-
+  // To push it to html page
+  pushData(boxes, elements);
 }
 
 // To check is document is ready
@@ -115,7 +175,7 @@ $(document).ready(function() {
     console.log("~File access complete.")
   }).done(function(data) {
     // To display fetched data
-    displayData(data);
+    setData(data);
     console.log("~Fetching complete.")
   }).fail(function(data, textStatus, error) {
     console.log("~Getting Error in getting JSON.")
