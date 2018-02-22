@@ -73,41 +73,42 @@ function createItems(data, locationEnable = true) {
     if (display) {
 
       //heading
-      if (data.hasOwnProperty('url') && value.hasOwnProperty('name')) {
+      if (value.hasOwnProperty('url') && value.hasOwnProperty('name')) {
         subItems.push(createElement("div", {
           "class": "item_heading"
         }, null, [createElement("a", {
           "href": value.url
         }, value.name)]))
-      } else if (value.hasOwnProperty('name')) {
-        subItems.push(createElement("div", {
-          "class": "item_heading"
-        }, value.name))
       }
 
-      if (data.hasOwnProperty('url') && data.hasOwnProperty('institute')) {
+      if (value.hasOwnProperty('url') && value.hasOwnProperty('institute')) {
         subItems.push(createElement("div", {
           "class": "item_heading"
         }, null, [createElement("a", {
           "href": value.url
         }, value.institute)]))
-      } else if (value.hasOwnProperty('institute')) {
-        subItems.push(createElement("div", {
-          "class": "item_heading"
-        }, value.institute))
       }
 
-      if (data.hasOwnProperty('url') && data.hasOwnProperty('title')) {
+      if (value.hasOwnProperty('url') && value.hasOwnProperty('projectUrl') && value.hasOwnProperty('title') && value.hasOwnProperty('projectTitle')) {
+        subItems.push(createElement("div", {
+          "class": "item_heading"
+        }, null, [
+          createElement("a", {
+            "href": value.url
+          }, value.title),
+          createElement("a", {
+            "href": value.projectUrl
+          }, " | " + value.projectTitle)
+        ]))
+      } else if (value.hasOwnProperty('url') && value.hasOwnProperty('title')) {
         subItems.push(createElement("div", {
           "class": "item_heading"
         }, null, [createElement("a", {
           "href": value.url
         }, value.title)]))
-      } else if (value.hasOwnProperty('title')) {
-        subItems.push(createElement("div", {
-          "class": "item_heading"
-        }, value.title))
       }
+
+
 
       // subheading
       if (value.hasOwnProperty('type')) {
@@ -239,12 +240,26 @@ function setData(data) {
 
   // Work elelements
   let work_elements = createItems(data.work, false)
-
-  //project elements
+  // project elements
   let project_elements = createItems(data.projects)
-
-  //achievements elements
+  // achievements elements
   let achievement_elements = createItems(data.achievements)
+  // activities elements
+  let activities_elements = createItems(data.activities)
+  // courses Elements
+  let courses_elements = createItems(data.courses)
+  // interests elements
+  let interests = ""
+  $.each(data.interests, function(key, value){
+      interests += value + " <br>"
+  })
+  let interests_heading = [createElement("div", {
+    "class": "item_heading"
+  }, interests)]
+
+  let interests_elements =  [createElement("div", {
+    "class": "item"
+  }, null , interests_heading)]
 
   // store boxes and respactive data
   let boxes = [
@@ -252,16 +267,21 @@ function setData(data) {
     $("#welcome_section"),
     $("#work_section"),
     $("#projects_section"),
-    $("#achievements_section")
-  ];
-
+    $("#achievements_section"),
+    $("#activities_section"),
+    $("#interests_section"),
+    $("#courses_section")
+  ]
   let elements = [
     profile_elements,
     welcome_elements,
     work_elements,
     project_elements,
-    achievement_elements
-  ];
+    achievement_elements,
+    activities_elements,
+    interests_elements,
+    courses_elements
+  ]
 
   // To push it to html page
   pushData(boxes, elements);
