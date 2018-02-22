@@ -189,16 +189,6 @@ function pushData(boxes, elements) {
 
 // To display all the infromation from the json file
 function setData(data) {
-
-  // Setting meta tag values for the document
-  $('head').append('<meta name="author" content="' + data.document.author + '">');
-  $('head').append('<meta name="title" content="' + data.document.title + '">');
-  $('head').append('<meta name="keywords" content="' + data.document.keywords + '">');
-  $('head').append('<meta name="description" content="' + data.document.description + '">');
-  $('head').append('<meta name="language" content="' + data.document.language + '">');
-  $('head').append('<meta charset="' + data.document.charset + '">');
-  $('head').append('<meta name="robots" content="' + data.document.robots + '">');
-
   let profile_elements = [];
   let welcome_elements = [];
 
