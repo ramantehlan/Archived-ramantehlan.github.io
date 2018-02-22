@@ -198,7 +198,6 @@ function setData(data) {
   $('head').append('<meta name="language" content="' + data.document.language + '">');
   $('head').append('<meta charset="' + data.document.charset + '">');
   $('head').append('<meta name="robots" content="' + data.document.robots + '">');
-  $('head').append('<meta name="google-site-verification" content="' + data.document.google_site_verificatin + '">');
 
   let profile_elements = [];
   let welcome_elements = [];
