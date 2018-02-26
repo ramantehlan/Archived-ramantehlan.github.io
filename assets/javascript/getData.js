@@ -8,7 +8,7 @@ function createElement(type, attribute = null, content = null, child = null) {
 
   // Add content to element
   if (content != null) {
-    element.innerHTML = content;
+    element.innerHTML += content;
   }
 
   // Set attributes using loop
@@ -20,7 +20,11 @@ function createElement(type, attribute = null, content = null, child = null) {
 
   // add child by appending them
   $.each(child, function(key, value) {
-    element.appendChild(value)
+    if(typeof value ===  'string'){
+      element.innerHTML += value
+    }else{
+      element.appendChild(value)
+    }
   })
 
   // return back the element
@@ -54,6 +58,16 @@ function createLinks(links) {
   })
 
   return stack;
+}
+
+function createLi(data){
+  let str = "<ul>"
+  $.each(data, function(key, value){
+    str += "<li>" + value + "</li>"
+  })
+  str += "</ul>"
+
+  return str
 }
 
 function createItems(data, locationEnable = true) {
@@ -142,9 +156,11 @@ function createItems(data, locationEnable = true) {
       }
 
       // timeline
-      subItems.push(createElement("div", {
-        "class": "item_timeline"
-      }, value.timeline))
+      if(value.hasOwnProperty('timeline')){
+        subItems.push(createElement("div", {
+          "class": "item_timeline"
+        }, value.timeline))
+      }
 
       //tags
       if (value.hasOwnProperty('tag')) {
@@ -162,9 +178,39 @@ function createItems(data, locationEnable = true) {
       }
 
       //Details
+      let details = []
+      if(value.hasOwnProperty('about')){
+        details.push(value.about)
+      }
+
+      if(value.hasOwnProperty('coursework')){
+        if(0 < value.coursework.length){
+          details.push("<b>Coursework</b>" + createLi(value.coursework) )
+        }
+      }
+
+      if(value.hasOwnProperty('achievements')){
+        if(0 < value.achievements.length){
+          details.push("<b>Achievements</b>" + createLi(value.achievements) )
+        }
+      }
+
+      if(value.hasOwnProperty('awards')){
+        if(0 < value.awards.length){
+          details.push("<b>Awards</b>" + createLi(value.awards) )
+        }
+      }
+
+      if(value.hasOwnProperty('activities')){
+        if(0 < value.activities.length){
+          details.push("<b>Activities</b>" + createLi(value.activities) )
+        }
+      }
+
       subItems.push(createElement("div", {
         "class": "item_details"
-      }, value.about))
+      }, null , details))
+
 
       //Finishing off
       let workItem = createElement("div", {
@@ -249,6 +295,9 @@ function setData(data) {
   let interests_elements =  [createElement("div", {
     "class": "item"
   }, null , interests_heading)]
+  // education
+  let education_elements = createItems(data.education)
+
 
   // store boxes and respactive data
   let boxes = [
@@ -259,7 +308,8 @@ function setData(data) {
     $("#achievements_section"),
     $("#activities_section"),
     $("#interests_section"),
-    $("#courses_section")
+    $("#courses_section"),
+    $("#education_section")
   ]
   let elements = [
     profile_elements,
@@ -269,7 +319,8 @@ function setData(data) {
     achievement_elements,
     activities_elements,
     interests_elements,
-    courses_elements
+    courses_elements,
+    education_elements
   ]
 
   // To push it to html page
