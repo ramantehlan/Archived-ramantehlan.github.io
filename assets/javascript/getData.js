@@ -20,10 +20,10 @@ function createElement(type, attribute = null, content = null, child = null) {
 
   // add child by appending them
   $.each(child, function(key, value) {
-    if(typeof value ===  'string'){
-      element.innerHTML += value
+    if(typeof value ===  'object'){
+        element.appendChild(value)
     }else{
-      element.appendChild(value)
+        element.innerHTML += value
     }
   })
 
@@ -233,6 +233,30 @@ function pushData(boxes, elements) {
   });
 }
 
+function createSkills(skills){
+    let skillsList = []
+
+      $.each(skills.data, function(key,value){
+        skillsList.push(createElement("div", {
+          "class": "skill_subheading",
+          "style": "color:" + skills.color[key]
+        }, skills.title[key]))
+
+       $.each(value, function(key1,value1){
+            skillsList.push("<div class='skillbar clearfix' data-percent='" + value1.percent + "%'>" +
+                      "<div class='skillbar-title'><span>" + value1.name + "</span></div>" +
+                      "<div class='skillbar-bar' style='background: " + skills.color[key] + "'></div>" +
+                    "</div>");
+        })
+      })
+
+      skillsList.push(createElement("div", {
+        "class": "item_note"
+      }, "*Skill still learning"))
+
+    return skillsList
+}
+
 // To display all the infromation from the json file
 function setData(data) {
   let profile_elements = [];
@@ -297,6 +321,10 @@ function setData(data) {
   }, null , interests_heading)]
   // education
   let education_elements = createItems(data.education)
+  // skills
+  let skills_elements = [createElement("div", {
+    "class": "item skills_item"
+  }, null , createSkills(data.skills))]
 
 
   // store boxes and respactive data
@@ -309,7 +337,8 @@ function setData(data) {
     $("#activities_section"),
     $("#interests_section"),
     $("#courses_section"),
-    $("#education_section")
+    $("#education_section"),
+    $("#skills_section")
   ]
   let elements = [
     profile_elements,
@@ -320,7 +349,8 @@ function setData(data) {
     activities_elements,
     interests_elements,
     courses_elements,
-    education_elements
+    education_elements,
+    skills_elements
   ]
 
   // To push it to html page
