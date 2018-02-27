@@ -1,26 +1,26 @@
 {
 	"document": {
-		"author": "FirstName LastName",
-		"title": "Official Page of (yourname) | Hello World!",
-		"keywords": "(10-12 keywords)",
-		"description": "(120 char)",
+		"author": "Raman Tehlan",
+		"title": "Official Page of Raman Tehlan | Hello World!",
+		"keywords": "Raman Tehlan ramantehlan Programmer Developer Designer Entrepreneur Resume CV.",
+		"description": "Welcome to the official page of Raman Tehlan, here you can get all the information about him and have a close look at his vision for this world.",
 		"language": "English",
 		"charset": "utf-8",
 		"robots": "INDEX , FOLLOW",
-		"google_site_verificatin": "(google verificaion code)"
+		"google_site_verificatin": "aAh3TeaoRYBSS0Wf8WP8EyRV8dV1d6APMbVhmMjnLSk"
 	},
 	"home": {
 		"title": "Hello World!",
-		"body": "Welcome to the official page of <i>(yourname)</i>, here you can get all the information about me, use above menu to get details of a particular domain and if you are looking for a summary then you can check out my resume.<br><br> Regards,<br><b>(yourname)</b>"
+		"body": "Welcome to the official page of <i>Raman Tehlan</i>, here you can get all the information about me, use above menu to get details of a particular domain and if you are looking for a summary then you can check out my resume.<br><br> Regards,<br><b>Raman Tehlan</b>"
 	},
 	"profile": {
-		"name": "FirstName LastName",
-		"image": "http://evidyalaya.mkcl.org/resources/images/user4.png",
+		"name": "Raman Tehlan",
+		"image": "assets/images/me.jpg",
 		"domains": "Developer | Designer | Entrepreneur",
-		"vision": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt quam purus, nec facilisis dui pretium ac. Nam tincidunt sem quis nunc commodo semper. Praesent elementum mauris quis lacus feugiat varius.",
+		"vision": "Aiming to make this world a better place with great solutions and better accessibility, using my knowledge to light up the world for everyone, especially poor and underprivileged. I am trying to leave something behind.",
 		"link": [{
 			"name": "resume",
-			"url": "#",
+			"url": "https://drive.google.com/open?id=1dloQ-o82YjmJbMkPU1feTpSxIv--5Jfp",
 			"iconUrl": "assets/images/icons/man-user.png",
 			"label": "Résumé",
 			"active": true
@@ -28,55 +28,55 @@
 			"name": "location",
 			"url": "",
 			"iconUrl": "assets/images/icons/pin.png",
-			"label": "somewhere, Country",
+			"label": "New Delhi, India",
 			"active": true
 		}, {
 			"name": "email",
 			"url": "",
 			"iconUrl": "assets/images/icons/black-envelope.png",
-			"label": "useraname[at]gmail",
+			"label": "Ramantehlan[at]gmail",
 			"active": true
 		}, {
 			"name": "github",
-			"url": "#",
+			"url": "https://github.com/ramantehlan",
 			"iconUrl": "assets/images/icons/github-logo.png",
-			"label": "github.com/username",
+			"label": "github.com/ramantehlan",
 			"active": true
 		}, {
 			"name": "twitter",
-			"url": "#",
+			"url": "https://twitter.com/ramantehlan",
 			"iconUrl": "assets/images/icons/twitter-logo-silhouette (1).png",
-			"label": "twitter.com/username",
+			"label": "twitter.com/ramantehlan",
 			"active": true
 		}, {
 			"name": "hackerrank",
-			"url": "#",
+			"url": "https://hackerrank.com/ramantehlan",
 			"iconUrl": "assets/images/icons/hackerrank.png",
-			"label": "hackerrank.com/username",
+			"label": "hackerrank.com/ramantehlan",
 			"active": true
 		}, {
 			"name": "reddit",
-			"url": "#",
+			"url": "https://www.reddit.com/user/ramantehlan/",
 			"iconUrl": "assets/images/icons/reddit-alien-head-logo.png",
-			"label": "reddit.com/user/username",
+			"label": "reddit.com/user/ramantehlan",
 			"active": true
 		}, {
 			"name": "hackerearth",
-			"url": "#",
+			"url": "https://www.hackerearth.com/@ramantehlan",
 			"iconUrl": "assets/images/icons/hackerearth.png",
-			"label": "hackerearth.com/@username",
+			"label": "hackerearth.com/@ramantehlan",
 			"active": true
 		}, {
 			"name": "y_combinator",
-			"url": "#",
+			"url": "https://news.ycombinator.com/user?id=ramantehlan",
 			"iconUrl": "assets/images/icons/y_combinator.png",
-			"label": "",
+			"label": "news.ycombinator.com/user?id=ramantehlan",
 			"active": false
 		}, {
 			"name": "facebook",
-			"url": "",
+			"url": "https://facebook.com/ramantehlan",
 			"iconUrl": "assets/images/icons/facebook-logo (1).png",
-			"label": "",
+			"label": "facebook.com/ramantehlan",
 			"active": false
 		}, {
 			"name": "instagram",
@@ -99,80 +99,282 @@
 		}]
 	},
 	"work": [{
-		"name": "Company name",
-		"url": "#",
-		"role": "role",
-		"location": "location",
-		"timeline": "timeline",
+		"name": "Cashfog",
+		"url": "https://github.com/ramantehlan/Cashfog",
+		"role": "Founder & CEO",
+		"location": "Delhi, India",
+		"timeline": "10/2016 - 10/2017",
 		"tag": [
-			"tags"
+			"Accounting",
+			"Transactions",
+			"Data Visualization"
 		],
-		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta maximus sagittis. Etiam tincidunt quam purus, nec facilisis dui pretium ac. Nam tincidunt sem quis nunc commodo semper. Praesent elementum mauris quis lacus feugiat varius. ",
+		"about": "An easy and smart service to maintain business transactions and documents online with analytics tools which provide more clear vision on cash flow. <ul> <li>Worked on powerful analytics tools to visualize all the business data.</li><li>Drag and drop document upload for all the important documents and files.</li><li>Beautiful UI/UX, with different modes for day and night.</li></ul>",
+		"openSource": true
+	}, {
+		"name": "AlvisAi",
+		"url": "https://github.com/ramantehlan/AlvisAI",
+		"role": "Founder & CEO",
+		"location": "Delhi, India",
+		"timeline": "07/2015 - 09/2016",
+		"tag": [
+			"Program-O",
+			"Artificial Intelligence",
+			"Bot",
+			"Social Network"
+		],
+		"about": "A social network app with a built-in bot and AI. This AI can understand user 's feelings by processing their online posts and behavior. <ul><li> Anonymous update with features to include emotions. </li><li> Ranking system for users which increase as a user do more activities. </li> <li > Beautiful UI / UX with many features like add background image or a solid colour. </li></ul>",
+		"openSource": true
+	}, {
+		"name": "MS Printing & Packaging CO",
+		"url": "https://github.com/ramantehlan/MSPP",
+		"role": "Consultant",
+		"location": "Rai, Haryana",
+		"timeline": "05/2013 - 05/2015",
+		"tag": [
+			"UX/UI",
+			"Design Thinking",
+			"Management",
+			"Branding",
+			"Advisor"
+		],
+		"about": "I was responsible for branding and online presence, also for creating formats of various documents like ledgers, purchase order etc.<ul><li> Created ledgers in Excel sheets to decrease the use of paper. </li><li> Worked on company 's website and displayed business on the Google search.</li><li> Created formats for various documents like purchase orders,quotations etc.</li></ul>",
 		"openSource": true
 	}],
 	"projects": [{
-			"name": "Project Name",
-			"url": "#",
+			"name": "DataStructures-CPP",
+			"url": "https://github.com/ramantehlan/DataStructures-CPP",
 			"type": "Application",
 			"timeline": "Ongoing",
 			"tag": [
-				"tag",
-				"tag2"
+				"C++",
+				"Data Structures",
+				"Algorithms"
 			],
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta maximus sagittis. Etiam tincidunt quam purus, nec facilisis dui pretium ac. Nam tincidunt sem quis nunc commodo semper. Praesent elementum mauris quis lacus feugiat varius. ",
+			"about": "DataStructures-CPP is an application to implement data structures and algorithms in C++ using a menu-driven interface.<ul><li> Created Source file for all the popular data structures. </li> <li> Neat application structure for beginners and professionals to understand. </li> <li> The program can be easily converted into other programming languages. </li></ul>",
 			"openSource": true
-		}],
+		},
+		{
+			"name": "Genetic-Tetris-Ai",
+			"url": "https://github.com/ramantehlan/Genetic-Tetris-Ai",
+			"type": "Webapp",
+			"timeline": "Ongoing",
+			"tag": [
+				"JavaScript",
+				"Genetic Algorithms",
+				"AI"
+			],
+			"about": "An implementation of Genetic Algorithms to create evolving/mutating AI to play Tetris. Genetic Algorithms follow the principles first laid down by Charles Darwin of 'survival of the fittest.' <ul><li> It uses matrix to create the game of Tetris. </li> <li> Multiple speeds and ranking system for gameplay. </li> <li> Simple yet beautiful UI / UX with user driven actions. </li></ul>",
+			"openSource": true
+		},
+		{
+			"name": "Alexandrite",
+			"url": "https://github.com/ramantehlan/Alexandrite",
+			"type": "Android App",
+			"timeline": "O4/2017",
+			"tag": [
+				"Java",
+				"Android",
+				"File System"
+			],
+			"about": "Alexandrite is an android app, which saves data on a device, whether it's temporary files, downloaded app assets, user media, structured data, or something else .<ul><li> Worked on data storage provided by a device on Android. </li> <li> Automated multiple processes. </li> <li> Beautiful UI / UX with a smooth design. </li></ul>",
+			"openSource": true
+		}
+	],
 	"achievements": [{
-		"title": "Achievements Name",
-		"url": "#",
-		"location": "Location",
-		"timeline": "timeline",
+		"title": "2nd | International Robotic Competition (IRC)",
+		"url": "http://www.ircleague.com/past-IRCs.php",
+		"location": "Husky Union Building, University of Washington, Seattle, USA",
+		"timeline": "06/2015",
 		"tag": [
-			"tags"
+			"Robotics",
+			"Problem Solving",
+			"Process Automation"
 		],
-		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta maximus sagittis. Etiam tincidunt quam purus, nec facilisis dui pretium ac. Nam tincidunt sem quis nunc commodo semper. Praesent elementum mauris quis lacus feugiat varius. ",
+		"about": "My team `Real Steel` designed a rocket assembly process for IRC International 2014 held at Seattle, USA in 2015. <ul><li> Robot aim was to assemble a rocket. </li> <li> Created a black line follower robot which could remove obstacles. </li> <li> The robot picked objects to place them at a launchpad. </li></ul>",
 		"openSource": false
 	}],
 	"activities": [{
-			"projectTitle": "Project Name",
-			"projectUrl": "#",
-			"title": "Activity title",
-			"url": "#",
-			"location": "location",
-			"timeline": "timeline",
+			"projectTitle": "Finojo",
+			"projectUrl": "https://github.com/ramantehlan/Finojo",
+			"title": "Hackathon - HACKRUPT",
+			"url": "https://www.hackerearth.com/sprints/hackrupt-18/",
+			"location": "NSIT, Delhi",
+			"timeline": "03/02/2018 - 04/02/2018",
+			"tag": ["NodeJS", "IPFS"],
+			"about": "<BR><BR>",
+			"openSource": true
+		},
+		{
+			"projectTitle": "Spero",
+			"projectUrl": "https://github.com/ramantehlan/Spero",
+			"title": "World Virtual Govhack",
+			"url": "http://hackathon.govtechprize.ae/",
+			"location": "Online",
+			"timeline": "12/2017",
 			"tag": [
-				"tags"
+				"Blockchain",
+				"Decentralized"
 			],
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta maximus sagittis. Etiam tincidunt quam purus, nec facilisis dui pretium ac. Nam tincidunt sem quis nunc commodo semper. Praesent elementum mauris quis lacus feugiat varius. ",
+			"about": "<Br><BR>",
+			"openSource": true
+		},
+		{
+			"projectTitle": "Celer",
+			"projectUrl": "https://github.com/ramantehlan/Celer",
+			"title": "Startup weekend by Techstars",
+			"url": "https://in.explara.com/e/delhidtu2017",
+			"location": "Delhi Technological University, Delhi, India",
+			"timeline": "08/09/2017 - 10/09/2017",
+			"tag": [
+				"Grid computing",
+				"API",
+				"Heroku"
+			],
+			"about": "Celer helps businesses to distribute their processing across the devices connected to the Internet. <ul><li> Web app to get the processing from business users and API for app developers to integrate in there app. </li> <li> API use 20 % -30 % of total available processing power. </li> <li> Web app for app developers to see the processing they provided from there user base and get compensated for it(They are asked to remove ads or make there app freemium if they earn above a certain limit from us.) </li></ul>",
+			"openSource": true
+		},
+		{
+			"projectTitle": "Optimus",
+			"projectUrl": "https://github.com/ramantehlan/Optimus",
+			"title": "AbinBev Hackathon",
+			"url": "http://www.hackathon.io/abinbev-hacktheworld-bangalore/schedules",
+			"location": "Bengaluru, India",
+			"timeline": "03/02/2017 - 05/02/2017",
+			"tag": [
+				"Artificial Intelligence",
+				"Data Visualization",
+				"Image Processing"
+			],
+			"about": "Optimus helps businesses visualise their data and get better insights into the factors which are driving sales. <ul >  <li> Platform to collect data from all over the world to process in real time. </li> <li > Focused on key factors like when to advertise more, which brand need more focused or which item to produce more and when. </li> <li > Great visualization tools for all the data. </li></ul>",
 			"openSource": true
 		}
 	],
 	"education": [{
-		"institute": "Institute Name",
+		"institute": "SRM University",
 		"url": "#",
-		"level": "Level/education",
-		"timeline": "timeline",
+		"level": "Bachelor of technology in computer science",
+		"timeline": "05/2016 - Present",
 		"coursework": [
-			"List"
+			"Design and Analysis of Algorithm",
+			"Computer System",
+			"Data Structures"
 		],
+		"achievements": [],
+		"awards": [],
+		"activities": []
+	}, {
+		"institute": "Sachdeva Global School",
+		"url": "http://sachdevaglobal.in/",
+		"level": "High school",
+		"timeline": "04/2012 - 04/2016",
+		"coursework": [],
 		"achievements": [
-			"list"
+			"2nd | Web Designing | Shree Venkateshwar Internation School | 29/08/2013",
+			"2nd | Digiwitz | Inter school festival | 2013"
 		],
 		"awards": [
-			"list"
+			"Excellence in Dramatics | 2014-2015"
 		],
 		"activities": [
-			"list"
+			"Ballet - 'Apna Bharat Apna Gourav' | Annual Day | 30/01/2015",
+			"The great India Story Conference | ISBF (University of London Affliate Center) | 06/12/2014",
+			"International Robotics Competition (IRC) League | 05/11/2014",
+			"Creative Event | rukmini devi public school | 30/08/2014",
+			"Green-o-tisement | Delhi public school | 25/04/2014",
+			"Ballet - 'Jai janani, jai Bharati' | Annual Day | 28/01/2014",
+			"Commercial Art | Mount Carmel School | 22/08/2013",
+			"Street play | maxfort school | 12/08/2013",
+			"Netting the web | Indraprastha international School | 30/07/2013",
+			"Ballet - 'Sabrang-Ek-sang' | Annual Day | 2013-2014",
+			"Inter-house quiz competition | 2013-2014",
+			"Inter-house table tennis tournament | 2013-2014",
+			"Rendejuous: vis-a-vis-street Play | Queen's valley school | 2013",
+			"Recycle Raja | Horlicks Wizkids by Krayon | 2013",
+			"Rendejuous: vis-a-vis-street Play | Queen's valley school | 2013",
+			"Recycle Raja | Horlicks Wizkids by Krayon | 2013",
+			"Math Olympiad | rukmini devi public school | 30/11/2012",
+			"Core5 - Web Desigining | Delhi public School | 09/11/2012",
+			"The green olympiad | 2012"
 		]
-	}
-],
+	}, {
+		"institute": "Apollo International School",
+		"url": "http://aischool.in/index.php",
+		"level": "Schooling",
+		"timeline": "04/2011 - 03/2012",
+		"coursework": [],
+		"achievements": [],
+		"awards": [],
+		"activities": [
+			"Children's preliminary round | The little art Gallery | 15/08/2011",
+			"Art/Declamation competition | Vidya Devi Jindal School | 07/08/2011"
+		]
+	}, {
+		"institute": "Swarnprastha Public School",
+		"url": "http://www.swarnprastha.com/",
+		"level": "Schooling",
+		"timeline": "04/2010 - 03/2011",
+		"coursework": [],
+		"achievements": [
+			"1st | Inter-house group singing competition | 29/8/2010"
+		],
+		"awards": [],
+		"activities": [
+			"National science olympiad | 19/11/2010"
+		]
+	}, {
+		"institute": "Ganga Iinternational School",
+		"url": "http://www.gangainternationalschool.com/",
+		"level": "Schooling",
+		"timeline": "Initial - 03/2010",
+		"coursework": [],
+		"achievements": [
+			"1st | Rakhi making competition | 2009-2010",
+			"3rd | Inter-house presentation competition | 2009-2010",
+			"3rd | Poster making competition | 2009-2010"
+		],
+		"awards": [],
+		"activities": [
+			"Science exhibition | 30/10/2009",
+			"Pentasoft quiz | 02/03/2009",
+			"Inter-house hindi group song competition | 10/11/2008"
+		]
+	}],
 	"courses": [{
-		"name": "Course Name",
-		"url": "#",
-		"from": "From",
-		"timeline": "timeline",
+		"name": "Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
+		"url": "https://www.coursera.org/learn/algorithms-divide-conquer",
+		"from": "Coursera - Stanford University",
+		"timeline": "Ongoing",
 		"about": "",
 		"complete": false
+	}, {
+		"name": "Fundamentals of Graphic Design",
+		"url": "https://www.coursera.org/learn/fundamentals-of-graphic-design",
+		"from": "Coursera - California Institute of the Arts",
+		"timeline": "Ongoing",
+		"about": "",
+		"complete": false
+	}, {
+		"name": "Software Testing",
+		"url": "https://in.udacity.com/course/software-testing--cs258",
+		"from": "Udacity",
+		"timeline": "Ongoing",
+		"about": "",
+		"complete": false
+	}, {
+		"name": "Writing READMEs",
+		"url": "https://in.udacity.com/course/writing-readmes--ud777",
+		"from": "Udacity",
+		"timeline": "05/2017",
+		"about": "<ul> <li > READMEs are underrated but they are really important for the development of a product. </li> <li> They help in making the code more approachable to the humans. </li> <li > They connect everyone on the team more easily and visually to the code. </li></ul>",
+		"complete": true
+	}, {
+		"name": "Design Thinking for Innovation",
+		"url": "https://www.coursera.org/learn/uva-darden-design-thinking-innovation",
+		"from": "Coursera - University of Virginia",
+		"timeline": "03/2017",
+		"about": "<ul> <li > Learned about the application of Design Thinking for Innovation. </li> <li > Explored methods to find out new ideas using current data. </li> <li > Possibility - driven, human - centred and option - focused approach. </li></ul>",
+		"complete": true
 	}],
 	"skills": {
 		"color": ["#e67e22;", "#4288d0;", "#525252;", "#E5128D;", "#2ecc71;", "#3498db;"],
