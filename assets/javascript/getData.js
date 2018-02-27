@@ -262,7 +262,7 @@ function setData(data) {
   let profile_elements = [];
   let welcome_elements = [];
 
-  
+
   // Minor elements
   let profile_image = createElement("img", {
     "src": data.profile.image
