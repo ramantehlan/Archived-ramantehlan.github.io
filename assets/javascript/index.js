@@ -1,11 +1,12 @@
-$(document).ready(function(){
-
+function animateSkills(){
 	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},2000);
-	});
+	jQuery(this).find('.skillbar-bar').animate({
+		width:jQuery(this).attr('data-percent')
+	},2000);
+});
+}
 
+$(document).ready(function(){
 
 		$("#welcome_section").show();
 

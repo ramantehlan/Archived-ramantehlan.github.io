@@ -262,6 +262,15 @@ function setData(data) {
   let profile_elements = [];
   let welcome_elements = [];
 
+  // Setting meta tag values for the document
+  $('head').append('<meta name="author" content="' + data.document.author + '">');
+  $('head').append('<meta name="title" content="' + data.document.title + '">');
+  $('head').append('<meta name="keywords" content="' + data.document.keywords + '">');
+  $('head').append('<meta name="description" content="' + data.document.description + '">');
+  $('head').append('<meta name="language" content="' + data.document.language + '">');
+  $('head').append('<meta charset="' + data.document.charset + '">');
+  $('head').append('<meta name="robots" content="' + data.document.robots + '">');
+  $('head').append('<meta name="google-site-verification" content="' + data.document.google_site_verificatin + '">');
 
   // Minor elements
   let profile_image = createElement("img", {
@@ -356,6 +365,7 @@ function setData(data) {
 
   // To push it to html page
   pushData(boxes, elements);
+  animateSkills();
 }
 
 // To check is document is ready
