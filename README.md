@@ -1,8 +1,18 @@
-# Ramantehlan.github.io
-This is my personal website, where I will talk about all my activities, projects, work experiences etc. I have kept it very very simple and to the point, my focus in just on presenting information in a very effective manner.
+# JS-Personal-page
+This is my personal page, I have kept it very very simple and to the point, my focus is just on putting out the information with simplicity. You can use this repository to make your own personal page, you don't need to be an expert to do so. Just follow the steps given below.
 
-# Contribution
-Any commit of information in the repository is **not allowed**, though you can fork it or change the design and features.
+## Usage
 
-# License
+- Fork it on github.
+- Rename repository to '**youUserName**.github.io'.
+- Replace the content of `data.json` to your information.
+- Replace the content of meta tags and head in `index.html`.
+
+> validate the `data.json` format once you are done adding your information, otherwise it will pop some error.
+  
+
+## Contribution
+Feel free to add your own features or improve any current feature, any kind of help is appreciated!
+
+## License
 GNU General Public License v3.0
