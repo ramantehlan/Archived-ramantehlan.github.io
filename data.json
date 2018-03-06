@@ -202,7 +202,7 @@
 			"location": "NSIT, Delhi",
 			"timeline": "03/02/2018 - 04/02/2018",
 			"tag": ["NodeJS", "IPFS"],
-			"about": "<BR><BR>",
+			"about": "Finojo is a decentralized tracking application of financial assets. It uses IPFS and Blockchain to allow corporate users to store there user files, documents, contracts, records etc on a decentralized network. Each Corporation and the user is provided with a unique finojo code, this code is used as a digital stamp for generating financial assets, later this code can be used to retrieve any file from the decentralized network.",
 			"openSource": true
 		},
 		{
@@ -216,7 +216,7 @@
 				"Blockchain",
 				"Decentralized"
 			],
-			"about": "<Br><BR>",
+			"about": "Spero is an open source decentralized job marketplace for refugees, asylums, NGOs and governments. we leverage blockchain and artificial intelligence to connected about 65.6 million refugees to jobs around the world. This project was created in December 2017 for the biggest Global Virtual GovHack hackathon organized by UAE Government in 2017.",
 			"openSource": true
 		},
 		{
