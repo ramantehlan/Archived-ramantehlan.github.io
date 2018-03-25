@@ -96,6 +96,12 @@
 			"iconUrl": "assets/images/icons/linkedin-logo.png",
 			"label": "",
 			"active": false
+		}, {
+			"name": "medium",
+			"url": "https://medium.com/@ramantehlan",
+			"iconUrl": "assets/images/icons/linkedin-logo.png",
+			"label": "medium.com/@ramantehlan",
+			"active": true
 		}]
 	},
 	"work": [{
