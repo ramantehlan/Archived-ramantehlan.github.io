@@ -75,13 +75,14 @@ $(document).ready(function(){
 			$("#interests_section").show();
 		});
 
-		$("#languages").click(function(){
+		$("#blogs").click(function(){
 			$(".selected").removeClass("selected");
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$("#languages_section").show();
+			$("#blog_section").show();
 		});
+
 
 
 });
