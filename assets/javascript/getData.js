@@ -305,6 +305,8 @@ function setData(data) {
   let achievement_elements = createItems(data.achievements)
   // activities elements
   let activities_elements = createItems(data.activities)
+  // Blog elements
+  let blog_elements = createItems(data.blog)
   // courses Elements
   let courses_elements = createItems(data.courses)
   // interests elements
@@ -338,7 +340,8 @@ function setData(data) {
     $("#interests_section"),
     $("#courses_section"),
     $("#education_section"),
-    $("#skills_section")
+    $("#skills_section"),
+    $("#blog_section")
   ]
   let elements = [
     profile_elements,
@@ -350,7 +353,8 @@ function setData(data) {
     interests_elements,
     courses_elements,
     education_elements,
-    skills_elements
+    skills_elements,
+    blog_elements
   ]
 
   // To push it to html page
