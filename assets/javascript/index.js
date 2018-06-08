@@ -75,7 +75,7 @@ $(document).ready(function(){
 			$("#interests_section").show();
 		});
 
-		$("#blogs").click(function(){
+		$("#blog").click(function(){
 			$(".selected").removeClass("selected");
 			$(this).addClass("selected");
 
