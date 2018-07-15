@@ -16,7 +16,7 @@
 	"profile": {
 		"name": "Raman Tehlan",
 		"image": "https://drive.google.com/uc?export=view&id=1qlBcPkxg9usJxJaMZe2y5YYyhGBu6tEh",
-		"domains": "Developer | Designer | Entrepreneur",
+		"domains": "Engineer | Developer | Designer | Entrepreneur",
 		"vision": "Aiming to make this world a better place via creating great solutions, using my knowledge to light up the world for everyone, especially poor and underprivileged. I am trying to leave something behind.",
 		"link": [{
 			"name": "resume",
@@ -105,12 +105,29 @@
 		}]
 	},
 	"work": [{
+		"name": "Knowlarity",
+		"url": "https://www.knowlarity.com/",
+		"role": "Software Engineer Intern",
+		"location": "Gurgaon, India",
+		"timeline": "06/2017 - 07/2017",
+		"tag": [
+			"JavaScript/TypeScript",
+			"Angular/Ionic",
+			"Python/Django",
+			"Cloud Telephony"
+		],
+		"about": "TBA",
+		"openSource": true
+	}
+		,{
 		"name": "Cashfog",
 		"url": "https://github.com/ramantehlan/Cashfog",
 		"role": "Founder & CEO",
 		"location": "Delhi, India",
 		"timeline": "10/2016 - 09/2017",
 		"tag": [
+			"PHP",
+			"JavaScript",
 			"Accounting",
 			"Transactions",
 			"Data Visualization"
@@ -133,7 +150,7 @@
 		"openSource": true
 	}, {
 		"name": "MS Printing & Packaging CO",
-		"url": "https://github.com/ramantehlan/MSPP",
+		"url": "http://www.msprintpack.in/",
 		"role": "Consultant",
 		"location": "Rai, Haryana",
 		"timeline": "05/2013 - 05/2015",
@@ -411,8 +428,8 @@
 		"complete": true
 	}],
 	"skills": {
-		"color": ["#e67e22;", "#4288d0;", "#525252;", "#E5128D;", "#2ecc71;", "#3498db;"],
-		"title": ["Backend", "Frontend", "Database", "Mobile", "Other Software/tools", "Life Skills"],
+		"color": ["#e67e22;", "#4288d0;", "#525252;", "#E5128D;", "#2ecc71;", "#3498db;", "#4288d0;"],
+		"title": ["Backend", "Frontend", "Frameworks","Database", "Mobile", "Other Software/tools", "Life Skills"],
 		"data": {
 			"0": [{
 				"name": "Java",
@@ -433,13 +450,19 @@
 			"1": [{
 				"name": "JavaScript",
 				"percent": "90"
-			}, {
+			},{
+				"name": "TypeScript",
+				"percent": "90"
+			},{
 				"name": "HTML",
 				"percent": "95"
 			}, {
 				"name": "CSS",
 				"percent": "95"
 			}, {
+				"name": "SASS",
+				"percent": "80"
+			},{
 				"name": "JQuery",
 				"percent": "90"
 			}, {
@@ -450,17 +473,24 @@
 				"percent": "95"
 			}],
 			"2": [{
+				"name": "Ionic",
+				"percent": "30"
+			},{
+				"name": "Angular",
+				"percent": "40"
+			}], 
+			"3": [{
 				"name": "MySql",
 				"percent": "80"
 			}, {
 				"name": "MongoDB",
 				"percent": "20"
 			}],
-			"3": [{
+			"4": [{
 				"name": "Android",
 				"percent": "20"
 			}],
-			"4": [{
+			"5": [{
 				"name": "Git",
 				"percent": "60"
 			}, {
@@ -470,7 +500,7 @@
 				"name": "Heroku",
 				"percent": "45"
 			}],
-			"5": [{
+			"6": [{
 				"name": "Self-Motivated",
 				"percent": "100"
 			}, {
