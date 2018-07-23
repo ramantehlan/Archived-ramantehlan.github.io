@@ -16,7 +16,7 @@
 	"profile": {
 		"name": "Raman Tehlan",
 		"image": "https://drive.google.com/uc?export=view&id=1qlBcPkxg9usJxJaMZe2y5YYyhGBu6tEh",
-		"domains": "Engineer | Developer | Designer | Entrepreneur",
+		"domains": "Engineer | Developer | Designer",
 		"vision": "Aiming to make this world a better place via creating great solutions, using my knowledge to light up the world for everyone, especially poor and underprivileged. I am trying to leave something behind.",
 		"link": [{
 			"name": "resume",
@@ -40,32 +40,38 @@
 			"name": "github",
 			"url": "https://github.com/ramantehlan",
 			"iconUrl": "assets/images/icons/github-logo.png",
-			"label": "github.com/ramantehlan",
+			"label": "github/ramantehlan",
 			"active": true
 		}, {
+			"name": "linkedin",
+			"url": "https://www.linkedin.com/in/ramantehlan/",
+			"iconUrl": "assets/images/icons/linkedin-logo.png",
+			"label": "linkedin/in/ramantehlan",
+			"active": true
+		},{
 			"name": "twitter",
 			"url": "https://twitter.com/ramantehlan",
 			"iconUrl": "assets/images/icons/twitter-logo-silhouette (1).png",
-			"label": "twitter.com/ramantehlan",
+			"label": "twitter/ramantehlan",
 			"active": true
 		}, {
 			"name": "hackerrank",
 			"url": "https://hackerrank.com/ramantehlan",
 			"iconUrl": "assets/images/icons/hackerrank.png",
-			"label": "hackerrank.com/ramantehlan",
-			"active": true
+			"label": "hackerrank/ramantehlan",
+			"active": false
 		}, {
 			"name": "reddit",
 			"url": "https://www.reddit.com/user/ramantehlan/",
 			"iconUrl": "assets/images/icons/reddit-alien-head-logo.png",
 			"label": "reddit.com/user/ramantehlan",
-			"active": true
+			"active": false
 		}, {
 			"name": "hackerearth",
 			"url": "https://www.hackerearth.com/@ramantehlan",
 			"iconUrl": "assets/images/icons/hackerearth.png",
-			"label": "hackerearth.com/@ramantehlan",
-			"active": true
+			"label": "hackerearth/@ramantehlan",
+			"active": false
 		}, {
 			"name": "y_combinator",
 			"url": "https://news.ycombinator.com/user?id=ramantehlan",
@@ -76,24 +82,18 @@
 			"name": "facebook",
 			"url": "https://facebook.com/ramantehlan",
 			"iconUrl": "assets/images/icons/facebook-logo (1).png",
-			"label": "facebook.com/ramantehlan",
+			"label": "facebook/ramantehlan",
 			"active": false
 		}, {
 			"name": "instagram",
-			"url": "",
+			"url": "https://www.instagram.com/ramantehlan/",
 			"iconUrl": "assets/images/icons/instagram-social-network-logo-of-photo-camera.png",
-			"label": "",
-			"active": false
+			"label": "Instagram/@ramantehlan",
+			"active": true
 		}, {
 			"name": "youtube",
 			"url": "",
 			"iconUrl": "assets/images/icons/youtube.png",
-			"label": "",
-			"active": false
-		}, {
-			"name": "linkedin",
-			"url": "",
-			"iconUrl": "assets/images/icons/linkedin-logo.png",
 			"label": "",
 			"active": false
 		}, {
