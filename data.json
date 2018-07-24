@@ -1,4 +1,4 @@
-	{
+{
 	"document": {
 		"author": "Raman Tehlan",
 		"title": "Official Page of Raman Tehlan | Hello World!",
@@ -498,6 +498,9 @@
 				"percent": "20"
 			}],
 			"6": [{
+				"name": "Vi/Vim",
+				"percent": "30"
+			},{
 				"name": "Git",
 				"percent": "60"
 			}, {
