@@ -478,6 +478,9 @@
 			}, {
 				"name": "Heroku",
 				"percent": "45"
+			},{
+				"name": "Shell Scripting",
+				"percent": "20"
 			}],
 			"3": [{
 				"name": "MySql",
