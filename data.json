@@ -116,7 +116,7 @@
 			"Python/Django",
 			"Cloud Telephony"
 		],
-		"about": "TBA",
+		"about": "Worked on optimizing the current app, decrease O(n) to O(1) by making asynchronous functions, upgraded from angularJs to angular 5, wrote module to debug the app.",
 		"openSource": true
 	}
 		,{
@@ -191,19 +191,6 @@
 			"openSource": true
 		},
 		{
-			"name": "Alexandrite",
-			"url": "https://github.com/ramantehlan/Alexandrite",
-			"type": "Android App",
-			"timeline": "O4/2017",
-			"tag": [
-				"Java",
-				"Android",
-				"File System"
-			],
-			"about": "Alexandrite is an android app, which saves data on a device, whether it's temporary files, downloaded app assets, user media, structured data, or something else .<ul><li> Worked on data storage provided by a device on Android. </li> <li> Automated multiple processes. </li> <li> Beautiful UI / UX with a smooth design. </li></ul>",
-			"openSource": true
-		},
-		{
 			"projectTitle": "Finojo",
 			"projectUrl": "https://github.com/ramantehlan/Finojo",
 			"title": "Hackathon - HACKRUPT",
@@ -241,6 +228,19 @@
 				"Heroku"
 			],
 			"about": "Celer helps businesses to distribute their processing across the devices connected to the Internet. <ul><li> Web app to get the processing from business users and API for app developers to integrate in there app. </li> <li> API use 20 % -30 % of total available processing power. </li> <li> Web app for app developers to see the processing they provided from there user base and get compensated for it(They are asked to remove ads or make there app freemium if they earn above a certain limit from us.) </li></ul>",
+			"openSource": true
+		},
+		{
+			"name": "Alexandrite",
+			"url": "https://github.com/ramantehlan/Alexandrite",
+			"type": "Android App",
+			"timeline": "O4/2017",
+			"tag": [
+				"Java",
+				"Android",
+				"File System"
+			],
+			"about": "Alexandrite is an android app, which saves data on a device, whether it's temporary files, downloaded app assets, user media, structured data, or something else .<ul><li> Worked on data storage provided by a device on Android. </li> <li> Automated multiple processes. </li> <li> Beautiful UI / UX with a smooth design. </li></ul>",
 			"openSource": true
 		},
 		{
