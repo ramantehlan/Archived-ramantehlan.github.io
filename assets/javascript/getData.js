@@ -189,12 +189,6 @@ function createItems(data, locationEnable = true) {
         }
       }
 
-      if(value.hasOwnProperty('achievements')){
-        if(0 < value.achievements.length){
-          details.push("<b>Achievements</b>" + createLi(value.achievements) )
-        }
-      }
-
       if(value.hasOwnProperty('awards')){
         if(0 < value.awards.length){
           details.push("<b>Awards</b>" + createLi(value.awards) )
@@ -303,8 +297,6 @@ function setData(data) {
   let project_elements = createItems(data.projects)
   // achievements elements
   let achievement_elements = createItems(data.achievements)
-  // activities elements
-  let activities_elements = createItems(data.activities)
   // Blog elements
   let blog_elements = createItems(data.blog)
   // courses Elements
@@ -336,7 +328,6 @@ function setData(data) {
     $("#work_section"),
     $("#projects_section"),
     $("#achievements_section"),
-    $("#activities_section"),
     $("#interests_section"),
     $("#courses_section"),
     $("#education_section"),
@@ -349,7 +340,6 @@ function setData(data) {
     work_elements,
     project_elements,
     achievement_elements,
-    activities_elements,
     interests_elements,
     courses_elements,
     education_elements,
