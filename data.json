@@ -165,16 +165,43 @@
 		"openSource": true
 	}],
 	"projects": [{
-			"name": "DataStructures-CPP",
-			"url": "https://github.com/ramantehlan/DataStructures-CPP",
-			"type": "Application",
-			"timeline": "Ongoing",
+			"projectTitle": "NASA International Space App Challenge - 2018",
+			"projectUrl": "https://www.nasa.gov/content/the-international-space-apps-challenge/",
+			"title": "Supernova",
+			"url": "https://github.com/ramantehlan/Supernova",
+			"location": "Delhi, India",
+			"timeline": "31/08/2018 - 01/09/2018",
 			"tag": [
-				"C++",
-				"Data Structures",
-				"Algorithms"
+				"Machine Learning",
+				"Optical Flow Analysis",
+				"APIs"
 			],
-			"about": "DataStructures-CPP is an application to implement data structures and algorithms in C++ using a menu-driven interface.<ul><li> Created Source file for all the popular data structures. </li> <li> Neat application structure for beginners and professionals to understand. </li> <li> The program can be easily converted into other programming languages. </li></ul>",
+			"about": "Smart AI to keep people safe on beaches from all the dangers. It uses ML and real time data to inform people about UV Index, Weather forecasts, Tsunamis, Harmful Algal Blooms (HABs), Animal Attacks and RIP currents(Using Optical Flow Analysis) etc, all through just one app. <ul >  <li> Using current location fetch all the environmental factors, like UV Index, Pressure, Air Quality. </li> <li > Camera can take a short video of ocean to do Optical Flow Analysis, to detect RIP Currents. </li></ul>",
+			"openSource": true
+		},
+		{
+			"projectTitle": "Hackathon - HACKRUPT",
+			"projectUrl": "https://www.hackerearth.com/sprints/hackrupt-18/",
+			"title": "Finojo",
+			"url": "https://github.com/ramantehlan/Finojo",
+			"location": "NSIT, Delhi",
+			"timeline": "03/02/2018 - 04/02/2018",
+			"tag": ["NodeJS", "IPFS"],
+			"about": "Finojo is a decentralized tracking application of financial assets. It uses IPFS and Blockchain to allow corporate users to store there user files, documents, contracts, records etc on a decentralized network. Each Corporation and the user is provided with a unique finojo code, this code is used as a digital stamp for generating financial assets, later this code can be used to retrieve any file from the decentralized network.",
+			"openSource": true
+		},
+		{
+			"projectTitle": "World Virtual Govhack",
+			"projectUrl": "http://hackathon.govtechprize.ae/",
+			"title": "Spero",
+			"url": "https://github.com/ramantehlan/Spero",
+			"location": "Online",
+			"timeline": "12/2017",
+			"tag": [
+				"Blockchain",
+				"Decentralized"
+			],
+			"about": "Spero is an open source decentralized job marketplace for refugees, asylums, NGOs and governments. we leverage blockchain and artificial intelligence to connected about 65.6 million refugees to jobs around the world. This project was created in December 2017 for the biggest Global Virtual GovHack hackathon organized by UAE Government in 2017.",
 			"openSource": true
 		},
 		{
@@ -191,35 +218,10 @@
 			"openSource": true
 		},
 		{
-			"projectTitle": "Finojo",
-			"projectUrl": "https://github.com/ramantehlan/Finojo",
-			"title": "Hackathon - HACKRUPT",
-			"url": "https://www.hackerearth.com/sprints/hackrupt-18/",
-			"location": "NSIT, Delhi",
-			"timeline": "03/02/2018 - 04/02/2018",
-			"tag": ["NodeJS", "IPFS"],
-			"about": "Finojo is a decentralized tracking application of financial assets. It uses IPFS and Blockchain to allow corporate users to store there user files, documents, contracts, records etc on a decentralized network. Each Corporation and the user is provided with a unique finojo code, this code is used as a digital stamp for generating financial assets, later this code can be used to retrieve any file from the decentralized network.",
-			"openSource": true
-		},
-		{
-			"projectTitle": "Spero",
-			"projectUrl": "https://github.com/ramantehlan/Spero",
-			"title": "World Virtual Govhack",
-			"url": "http://hackathon.govtechprize.ae/",
-			"location": "Online",
-			"timeline": "12/2017",
-			"tag": [
-				"Blockchain",
-				"Decentralized"
-			],
-			"about": "Spero is an open source decentralized job marketplace for refugees, asylums, NGOs and governments. we leverage blockchain and artificial intelligence to connected about 65.6 million refugees to jobs around the world. This project was created in December 2017 for the biggest Global Virtual GovHack hackathon organized by UAE Government in 2017.",
-			"openSource": true
-		},
-		{
-			"projectTitle": "Celer",
-			"projectUrl": "https://github.com/ramantehlan/Celer",
-			"title": "Startup weekend by Techstars",
-			"url": "https://in.explara.com/e/delhidtu2017",
+			"projectTitle": "Startup weekend by Techstars",
+			"projectUrl": "https://in.explara.com/e/delhidtu2017",
+			"title": "Celer",
+			"url": "https://github.com/ramantehlan/Celer",
 			"location": "Delhi Technological University, Delhi, India",
 			"timeline": "08/09/2017 - 10/09/2017",
 			"tag": [
@@ -228,6 +230,19 @@
 				"Heroku"
 			],
 			"about": "Celer helps businesses to distribute their processing across the devices connected to the Internet. <ul><li> Web app to get the processing from business users and API for app developers to integrate in there app. </li> <li> API use 20 % -30 % of total available processing power. </li> <li> Web app for app developers to see the processing they provided from there user base and get compensated for it(They are asked to remove ads or make there app freemium if they earn above a certain limit from us.) </li></ul>",
+			"openSource": true
+		},
+		{
+			"name": "DataStructures-CPP",
+			"url": "https://github.com/ramantehlan/DataStructures-CPP",
+			"type": "Application",
+			"timeline": "Ongoing",
+			"tag": [
+				"C++",
+				"Data Structures",
+				"Algorithms"
+			],
+			"about": "DataStructures-CPP is an application to implement data structures and algorithms in C++ using a menu-driven interface.<ul><li> Created Source file for all the popular data structures. </li> <li> Neat application structure for beginners and professionals to understand. </li> <li> The program can be easily converted into other programming languages. </li></ul>",
 			"openSource": true
 		},
 		{
@@ -244,10 +259,10 @@
 			"openSource": true
 		},
 		{
-			"projectTitle": "Optimus",
-			"projectUrl": "https://github.com/ramantehlan/Optimus",
-			"title": "AbinBev Hackathon",
-			"url": "http://www.hackathon.io/abinbev-hacktheworld-bangalore/schedules",
+			"projectTitle": "AbinBev Hackathon",
+			"projectUrl": "http://www.hackathon.io/abinbev-hacktheworld-bangalore/schedules",
+			"title": "Optimus",
+			"url": "https://github.com/ramantehlan/Optimus",
 			"location": "Bengaluru, India",
 			"timeline": "03/02/2017 - 05/02/2017",
 			"tag": [
