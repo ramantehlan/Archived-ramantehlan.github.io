@@ -126,8 +126,7 @@
 		"location": "Delhi, India",
 		"timeline": "10/2016 - 09/2017",
 		"tag": [
-			"PHP",
-			"JavaScript",
+			"10+ First Month Business Users",
 			"Accounting",
 			"Transactions",
 			"Data Visualization"
@@ -141,10 +140,10 @@
 		"location": "Delhi, India",
 		"timeline": "07/2015 - 09/2016",
 		"tag": [
+			"170+ First Month Users",
 			"Program-O",
 			"Artificial Intelligence",
-			"Bot",
-			"Social Network"
+			"Bot"
 		],
 		"about": "A social network app with a built-in bot and AI. This AI can understand user 's feelings by processing their online posts and behavior. <ul><li> Anonymous update with features to include emotions. </li><li> Ranking system for users which increase as a user do more activities. </li> <li > Beautiful UI / UX with many features like add background image or a solid colour. </li></ul>",
 		"openSource": true
@@ -155,7 +154,7 @@
 		"location": "Rai, Haryana",
 		"timeline": "05/2013 - 05/2015",
 		"tag": [
-			"UX/UI",
+			"30+ Business Clients Served",
 			"Design Thinking",
 			"Management",
 			"Branding",
@@ -172,11 +171,25 @@
 			"location": "Delhi, India",
 			"timeline": "31/08/2018 - 01/09/2018",
 			"tag": [
+				"4th in 70 teams",
 				"Machine Learning",
-				"Optical Flow Analysis",
-				"APIs"
+				"Optical Flow Analysis"
 			],
 			"about": "Smart AI to keep people safe on beaches from all the dangers. It uses ML and real time data to inform people about UV Index, Weather forecasts, Tsunamis, Harmful Algal Blooms (HABs), Animal Attacks and RIP currents(Using Optical Flow Analysis) etc, all through just one app. <ul >  <li> Using current location fetch all the environmental factors, like UV Index, Pressure, Air Quality. </li> <li > Camera can take a short video of ocean to do Optical Flow Analysis, to detect RIP Currents. </li></ul>",
+			"openSource": true
+		},
+		{
+			"name": "JTLog",
+			"url": "https://github.com/ramantehlan/JTLog",
+			"type": "NPM Module",
+			"timeline": "14/06/2018 - 28/08/2018",
+			"tag": [
+				"600+ Downloads/First Month",
+				"Typescript",
+				"NPM",
+				"Console Log"
+			],
+			"about": "JavascriptTypescriptLog (JTLog) is Log library. <ul><li>Record/Store console logs for a particular session, return it in an array.</li><li>2 Modes for development and production (Won't be visible to users).</li><li>Switch between consoling and recording, or choose both.</li></ul>",
 			"openSource": true
 		},
 		{
@@ -186,7 +199,7 @@
 			"url": "https://github.com/ramantehlan/Finojo",
 			"location": "NSIT, Delhi",
 			"timeline": "03/02/2018 - 04/02/2018",
-			"tag": ["NodeJS", "IPFS"],
+			"tag": [ "Top 10 Finalist" ,"NodeJS", "IPFS"],
 			"about": "Finojo is a decentralized tracking application of financial assets. It uses IPFS and Blockchain to allow corporate users to store there user files, documents, contracts, records etc on a decentralized network. Each Corporation and the user is provided with a unique finojo code, this code is used as a digital stamp for generating financial assets, later this code can be used to retrieve any file from the decentralized network.",
 			"openSource": true
 		},
