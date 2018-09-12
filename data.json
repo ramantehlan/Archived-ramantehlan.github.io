@@ -164,14 +164,29 @@
 		"openSource": true
 	}],
 	"projects": [{
+			"projectTitle": "Techstars Startup Weekend",
+			"projectUrl": "http://startupweekend.org/",
+			"title": "LegalAI",
+			"url": "https://github.com/ramantehlan/Supernova",
+			"location": "Delhi Technological University, Delhi",
+			"timeline": "07/09/2018 - 09/09/2018",
+			"tag": [
+				"3rd in 63 teams",
+				"ML/NLP",
+				"7 people team"
+			],
+			"about": "Platform for lawyers and legal firms to leverage ML/NLP to identify, extract, and analyze litigation cases, and manage them privately on cloud.",
+			"openSource": true
+		},{
 			"projectTitle": "NASA International Space App Challenge - 2018",
 			"projectUrl": "https://www.nasa.gov/content/the-international-space-apps-challenge/",
 			"title": "Supernova",
 			"url": "https://github.com/ramantehlan/Supernova",
-			"location": "Delhi, India",
+			"location": "Rohini, Delhi",
 			"timeline": "31/08/2018 - 01/09/2018",
 			"tag": [
 				"4th in 70 teams",
+				"3 people team",
 				"Machine Learning",
 				"Optical Flow Analysis"
 			],
@@ -231,8 +246,8 @@
 			"openSource": true
 		},
 		{
-			"projectTitle": "Startup weekend by Techstars",
-			"projectUrl": "https://in.explara.com/e/delhidtu2017",
+			"projectTitle": "Techstars Startup Weekend",
+			"projectUrl": "http://startupweekend.org/",
 			"title": "Celer",
 			"url": "https://github.com/ramantehlan/Celer",
 			"location": "Delhi Technological University, Delhi, India",
