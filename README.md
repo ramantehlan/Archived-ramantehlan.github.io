@@ -12,6 +12,12 @@ This is my personal page, I have kept it very very simple and to the point, my f
   
 
 ## Contribution
+
+**Author**
+
+- [Raman Tehlan](https://ramantehlan.github.io/)
+
+
 Feel free to add your own features or improve any current feature, any kind of help is appreciated!
 
 ## License
