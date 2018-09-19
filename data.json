@@ -104,7 +104,23 @@
 			"active": false
 		}]
 	},
-	"work": [{
+	"work": [
+	{
+		"name": "Udacity",
+		"url": "https://www.Udacity.com/",
+		"role": "Software Engineer Intern",
+		"location": "Delhi, India",
+		"timeline": "06/2017 - 08/2017",
+		"tag": [
+			"JavaScript/TypeScript",
+			"Angular/Ionic",
+			"Python/Django",
+			"Cloud Telephony"
+		],
+		"about": "TBD",
+		"openSource": true
+	}
+		,{
 		"name": "Knowlarity",
 		"url": "https://www.knowlarity.com/",
 		"role": "Software Engineer Intern",
